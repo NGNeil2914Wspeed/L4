@@ -1,0 +1,18 @@
+#Sleep used
+from time import sleep
+
+#Introduction
+print ("Hello! This a python code that will automatically change the letters in a string uppercase")
+sleep(1)
+
+#Input
+text = input("Please enter a string: ")
+sleep(1)
+
+#Proccessing...
+print ("...")
+converted = text.upper()
+sleep(1)
+
+#Output
+print (f"The converted string is: {converted}")
